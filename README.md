@@ -84,11 +84,3 @@ Welcome to the Flipkart Clone project, a comprehensive e-commerce platform built
 </table>
 
 <br/>
-
-<h2>📬 Contact</h2>
-
-If you want to contact me, you can reach me through below handles.
-
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahesh-patil-bb4ba5218/)
-
-© 2023 Mahesh Patil
