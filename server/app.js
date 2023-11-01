@@ -27,8 +27,8 @@ const app = express();
 // app.use(cors(corsOptions));
 
 app.use(cors({
-  origin:'https://flipkart-clone-ui.vercel.app',
-  // origin:'http://localhost:3000',
+  //origin:'https://flipkart-clone-ui.vercel.app',
+  origin:'http://localhost:3000',
   credentials:true,
   optionsSuccessStatus:200
 }))
@@ -49,11 +49,11 @@ app.use(fileUpload( {
     limits: { fileSize: 100 * 1024 * 1024 },
   }));
 
-cloudinary.config({ 
-    cloud_name: `${process.env.cloud_name}`, 
-    api_key: `${process.env.api_key}`, 
-    api_secret: `${process.env.api_secret}` 
-  });
+// cloudinary.config({ 
+//     cloud_name: `${process.env.cloud_name}`, 
+//     api_key: `${process.env.api_key}`, 
+//     api_secret: `${process.env.api_secret}` 
+//   });
 
 
 

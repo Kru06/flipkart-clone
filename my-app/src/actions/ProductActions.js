@@ -61,6 +61,7 @@ export const GetTopProducts = () => async(dispatch)=>{
       })
   
       const {data} = await Axios.get(`/top/products`)
+      console.log("- --->", data);
   
       dispatch({
           type:Top_Product_Success,

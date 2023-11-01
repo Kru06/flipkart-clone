@@ -76,7 +76,7 @@ const Productslider = ({ category, page }) => {
               <Slider {...settings}>
                 {
                   products && products[category] && products[category].map((elem, index) => {
-
+                    console.log(elem)
                     return (
                       <Product key={index} elem={elem} index={index} />
                     )

@@ -40,7 +40,7 @@ UserModel.pre('save', async function (next) {
   })
 
 UserModel.methods.generatetoken = function(){
-    const token = jwt.sign({id:this._id}, process.env.JWT)
+    const token = jwt.sign({id:this._id}, "Krupa")
     return token
 }
 

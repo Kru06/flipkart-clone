@@ -13,7 +13,7 @@ exports.Authorization = aysnchandler(async(req,res,next)=>{
         return next(new ErrorHandler('Please Login First before Moving further', 400))
     }
 
-    const decode =  jwt.verify(token , process.env.JWT)
+    const decode =  jwt.verify(token , "Krupa")
 
     req.user = await UserModel.findById(decode.id)
 
